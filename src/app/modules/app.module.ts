@@ -19,8 +19,8 @@ import { A0SsrComponent } from '../components/a0-ssr/a0-ssr.component';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule
+    AppRoutingModule,
   ],
-  providers: []
+  providers: [],
 })
-export class AppModule { }
+export class AppModule {}

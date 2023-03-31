@@ -1,8 +1,10 @@
 {
-  "domain": "freevote.eu.auth0.com",
-  "clientId": "QJKOZtLJRmxan9fTD7HMQ19IoPUOhUdi",
-  "authorizationParams": {},
-  "apiUri": "http://localhost:3001",
-  "appUri": "http://mylocaldomain.com:4200",
+  "domain": "intribe-unstable.auth0.com",
+  "clientId": "H7eMa8UFDwgGUWOAj8zTz5S8ctoyHugY",
+  "authorizationParams": {
+    "audience": "https://api-unstable.lab.intribe.co"
+  },
+  "apiUri": "http://api.dev.intribe.co:3030",
+  "appUri": "https://app.dev.intribe.co:3000",
   "errorPath": "/error"
 }

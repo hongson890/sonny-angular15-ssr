@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+dist
+node_modules/*
+.webpack
+.serverless
+.idea
+lib
+build
+coverage

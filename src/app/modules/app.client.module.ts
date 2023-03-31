@@ -1,4 +1,3 @@
-
 // Angular
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -30,6 +29,6 @@ import { AuthHttpInterceptor, AuthModule } from '@auth0/auth0-angular';
       multi: true,
     },
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppClientModule { }
+export class AppClientModule {}

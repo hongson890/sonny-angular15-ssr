@@ -5,7 +5,7 @@ req_extensions     = req_ext
 prompt             = no
 
 [ req_distinguished_name ]
-commonName         = mylocaldomain.com
+commonName         = app.dev.intribe.co
 
 [ req_ext ]
-subjectAltName = DNS:mylocaldomain.com
+subjectAltName = DNS:app.dev.intribe.co

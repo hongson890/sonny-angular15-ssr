@@ -5,7 +5,7 @@
   <button routerLink="/a0-ssr-fixup">Auth0 SSR Fixup</button>
   <app-login-button *ngIf="!(auth.user$ | async)"></app-login-button>
   <app-logout-button *ngIf="auth.user$ | async"></app-logout-button>
-  <span *ngIf="auth.user$ | async as user">{{ user.email }}</span>
+  <span *ngIf="auth.user$ | async as user">{{ user.email }} | {{ user.nickname}}</span>
 </div>
 
 <hr>

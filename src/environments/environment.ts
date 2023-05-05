@@ -25,8 +25,9 @@ export const environment = {
     domain,
     clientId,
     authorizationParams: {
-      ...(audience && audience !== 'YOUR_API_IDENTIFIER' ? { audience } : null),
-      redirect_uri: window.location.origin,
+      apiAudience: 'http://localhost:3030',
+      redirect_uri: `${window.location.origin}/loginResponse`,
+      scope: 'openid profile email access:basic read:user:self write:user:self',
     },
     errorPath,
   },

@@ -5,8 +5,14 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: '', component: A0SsrComponent, pathMatch: 'full' },
+  { path: 'loginResponse', component: A0SsrComponent, pathMatch: 'full' },
   { path: 'a0-ssr', component: A0SsrComponent, pathMatch: 'full' },
   { path: 'a0-ssr-fixup', component: A0SsrFixupComponent, pathMatch: 'full' },
+  {
+    path: 'campaign/:campaignId',
+    component: A0SsrComponent,
+    pathMatch: 'full',
+  }, // Add this line
 ];
 
 @NgModule({
